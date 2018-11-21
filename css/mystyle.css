@@ -1,0 +1,144 @@
+.navbar{
+	text-transform: uppercase !important;
+	font-family: 'PT Sans Narrow', arial, sans-serif !important;
+	background-color: #483b8d;
+
+}
+.navbar a{
+	color: white !important;
+	opacity: 0.9 !important;
+	font-weight: 700px !important;
+}
+.navbar a:hover{
+	color: tomato !important;
+	border-bottom: 3px #111 solid;
+	font-weight: 1000px;
+
+}
+ 
+ .navbar{
+
+ }
+
+/* header style */
+
+.header{
+	width:100%;
+	height: 500px;
+	background: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: center center;
+	color:#fff;
+	margin-top: 52px;
+	padding: 30px 0 30px;
+	opacity: 0.8;
+	overflow-x: hidden;
+}
+.header img{
+	width:450px;
+	height:300px;
+	margin: 70px 0px 30px;
+	
+}
+@media(max-width: 768px){
+	.header img{
+       width:90%;
+	}
+
+}
+
+/*services*/
+
+.service{
+	 text-align: center;
+	padding: 50px 0px  80px;
+}
+.service h1,
+.service h4
+{
+ color: #808000;
+} 
+.service i{
+	color:#eee;
+	background-color: #af2345;
+	margin-top: 80px;
+	border-radius: 100%;
+	padding: 40px;
+}
+.service p{
+	font-size: 18px;
+}
+
+/*  team css       */
+.team{
+	
+	text-align: center;
+	background-color: #7b68ee;
+	color: #fee;
+	opacity: 1.2;
+	padding: 50px 0px 80px;
+}
+.team img{
+
+	width: 150px;
+	height: 150px;
+	border: 2px #ff0000 outset;
+	margin-top: 80px;
+}
+.team h3,h2,b{
+	font-family: arial;
+	margin:20px 0 20px;
+}
+.team i{
+	color: tomato;
+	padding: 5px;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+
+}
+/*contact */
+.contact{
+	padding: 50px 0px 80px;
+	text-align: center;
+}
+.contact h2,.contact h2{
+	margin:20px 0 20px;
+}
+.contact .input-group{
+	margin-bottom: 25px;
+}
+.contact .form-control{
+	border-radius: 0 !important;
+}
+.contact span{
+	border-radius: 0 !important;
+}
+.contact .btn{
+	border-radius: 0 !important;
+	width: 100%;
+	background-color: #f08080;
+	color:#fff;
+}
+
+/* footer */
+.footer{
+	background-color: #483b8d;
+	color: #cccccc;
+	padding: 30px;
+}
+.footer .social{
+	font-size: 20px;
+	text-align: center;
+	height: 30px;
+	width:30px;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	margin-bottom: 10px;
+	margin-right: 5px;
+	color: #cccccc; 
+}
+.footer a:hover{
+	color: #800000 !important;
+}
